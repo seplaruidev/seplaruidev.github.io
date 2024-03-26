@@ -6,3 +6,7 @@
 .negrita {
     font-weight: bold;
 }
+
+nav {
+    background-color: #15152F; /* Color de fondo personalizado */
+}
