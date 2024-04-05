@@ -31,3 +31,41 @@ nav {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.img_tamanyo {
+    width: 100%;
+    max-height: 400px;
+    object-fit:cover;
+    transition: transform 0.5s ease; /* Transición suave en la propiedad transform (en este caso, el tamaño) durante 0.5 segundos */
+
+}
+
+.img_tamanyo:hover {
+    transform: scale(1.1); /* Aumentamos el tamaño de la imagen */
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-description {
+    padding: 20px;
+}
+
+.card-description h3 {
+    margin-top: 0;
+}
+
+.card-description p {
+    margin-bottom: 0;
+}
